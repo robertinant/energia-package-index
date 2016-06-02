@@ -1,0 +1,487 @@
+{
+  "packages": [
+    {
+      "name": "energia",
+      "maintainer": "Energia",
+      "websiteURL": "http://www.energia.nu/",
+      "email": "make@energia.nu",
+      "help": {
+        "online": "http://energia.nu/reference"
+      },
+      "platforms": [
+        {
+          "name": "Energia MSP430 boards",
+          "architecture": "msp430",
+          "version": "1.0.",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/msp430-1.0.1.tar.bz2",
+          "archiveFileName": "msp430-1.0.1.tar.bz2",
+          "checksum": "SHA-256:b8e4999ea5b04787f7dfe22a640bf8f0d697968064f713585845a05dd04b1069",
+          "size": "6436257",
+          "boards": [
+            {"name": "MSP-EXP430F5529LP"},
+            {"name": "MSP-EXP430FR4133"},
+            {"name": "MSP-EXP430FR5969"},
+            {"name": "MSP-EXP430FR6989"},
+            {"name": "MSP-EXP430G2"}
+          ],
+          "toolsDependencies": [
+            {
+
+              "packager":"energia",
+              "name":"msp430-gcc",
+              "version":"4.6.3"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"mspdebug",
+              "version":"0.22"
+            }
+         ]
+        },
+        {
+          "name": "Energia MSP432 boards",
+          "architecture": "msp432",
+          "version": "1.0.15",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/msp432-1.0.15.tar.bz2",
+          "archiveFileName": "msp432-1.0.15.tar.bz2",
+          "checksum": "SHA-256:b614d770562f3b5756e4949e6fdbfb2a35d0f1768bc55ddfc4a8fe285e8a4a62",
+          "size": "3206790",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.1"
+            }
+          ]
+        },
+        {
+          "name": "Energia MSP432 boards",
+          "architecture": "msp432",
+          "version": "1.0.14",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/msp432-1.0.14.tar.bz2",
+          "archiveFileName": "msp432-1.0.14.tar.bz2",
+          "checksum": "SHA-256:4142d3396e7ce6105d6a6d98e71d211429d0517a73e24abc8f898579949324d0",
+          "size": "3206143",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.1"
+            }
+          ]
+        },
+        {
+          "name": "Energia MSP432 boards",
+          "architecture": "msp432",
+          "version": "1.0.1",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/msp432-1.0.1.tar.bz2",
+          "archiveFileName": "msp432-1.0.1.tar.bz2",
+          "checksum": "SHA-256:b9f898102535cccc60e68c1044cca4c67dbf96b2400a329e8552ebc49dd02df1",
+          "size": "4343686",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.1"
+            }
+          ]
+        },
+        {
+          "name": "Energia MSP432 boards",
+          "architecture": "msp432",
+          "version": "1.0.0",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/msp432-1.0.0.tar.bz2",
+          "archiveFileName": "msp432-1.0.0.tar.bz2",
+          "checksum": "SHA-256:940b0ca5b2d33f74f671e47b81e5a14a48eb8bf015f6edc09365914e10a2b876",
+          "size": "5856722",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.1"
+            }
+          ]
+        },
+        {
+          "name": "Energia TivaC boards",
+          "architecture": "tivac",
+          "version": "1.0.1",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/tivac-1.0.1.tar.bz2",
+          "archiveFileName": "tivac-1.0.1.tar.bz2",
+          "checksum": "SHA-256:0af7b452874f0449de49fc3b607fdd237c080a76ca8495b83d868ea00e9290da",
+          "size": "2233068",
+          "boards": [
+            {"name": "EK-TM4C123GXL"},
+            {"name": "EK-TM4C1294XL"},
+            {"name": "EK-LM4F120XL"}
+          ],
+          "toolsDependencies": [
+            {
+
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            }
+
+          ]
+        },
+        {
+          "name": "Energia CC3200 boards",
+          "architecture": "cc3200",
+          "version": "1.0.1",
+          "category": "Energia",
+          "url": "http://energia.nu/cores/cc3200-1.0.1.tar.bz2",
+          "archiveFileName": "cc3200-1.0.1.tar.bz2",
+          "checksum": "SHA-256:aa42eba2809c6a9c113336fbd3d08672f306aec48b441000856aec8061f9f1c1",
+          "size": "2180964",
+          "boards": [
+            {"name": "CC3200-LAUNCHXL"},
+            {"name": "RedBearLab CC3200"},
+            {"name": "RedBearLab WiFi Mini"},
+            {"name": "RedBearLab WiFi Micro"}
+          ],
+          "toolsDependencies": [
+            {
+
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1594"
+            },
+            {
+              "packager":"energia",
+              "name":"cc3200prog",
+              "version":"1.1.4"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name":"msp430-gcc",
+          "version":"4.6.3",
+          "systems":
+          [
+            {
+              "host":"i686-mingw32",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/msp430-gcc-4.6.3/win_msp430_tools.tar.bz2",
+              "archiveFileName":"win_msp430_tools.tar.bz2",
+              "checksum":"SHA-256:5f8d31949a35f20e0279b8def9bfbe88eed3724ca07e2be80dde51b123ce9da8",
+              "size":"33165187"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/msp430-gcc-4.6.3-i386-apple-darwin11.tar.bz2",
+              "archiveFileName":"msp430-gcc-4.6.3-i386-apple-darwin11.tar.bz2",
+              "checksum":"SHA-256:b919d80880603b55c64b9095eb80d4005e82d7428b0d7ded3864c200cb4f847c",
+              "size":"32357793"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://www.energia.nu/tools/msp430-gcc-4.6.3-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName": "msp430-gcc-4.6.3-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "size": "87607164",
+              "checksum": "SHA-256:453832be5150f45a830ea5b0336a911f22fd7553f668a1e93a5c9e58f65f9f7f"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/msp430-gcc-4.6.3/lin_msp430_tools.tar.bz2",
+              "archiveFileName":"lin_msp430_tools.tar.bz2",
+              "checksum":"SHA-256:5441db01ff0cfc9b869a3f8296642a8b2d89aa9d90eb47b01c53d8d9b00ab8f7",
+              "size":"99056584" 
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "4.8.4-20140725",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.4-20140725-windows.tar.gz",
+              "url": "http://energia.nu/gcc-arm-none-eabi-4.8.4-20140725-windows.tar.gz",
+              "checksum": "SHA-256:2ab5a6ad2a32f976d17b7ef9222623e6f9881be908047cb05730ccd89eb79a1d",
+              "size": "82014307"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://energia.nu/tools/gcc-arm-none-eabi-4.8.4-20140725-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.4-20140725-mac.tar.bz2",
+              "checksum": "SHA-256:66c9261fdd6d646931dfe940e8daf38d3b11cfba8a7e714c7a3811146b6dc9c7",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://www.energia.nu/tools/gcc-arm-none-eabi-4.8.4-20140725-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.4-20140725-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:00636c299e7a420212cdc1643d5c52d3e82eb66c8ce0e4693327cd1e936b52db",
+              "size": "68654066"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
+            }
+          ]
+        },
+        {
+          "name":"ino2cpp",
+          "version":"1.0.1",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"http://www.energia.nu/tools/ino2cpp-1.0.1.tar.bz2",
+              "archiveFileName":"ino2cpp-1.0.1.tar.bz2",
+              "checksum":"SHA-256:63d8b19728fc5241ea6944ab591fed8b9b0aa4a427b2375e97d3d3980e476f16",
+              "size":"484342"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/ino2cpp-1.0.1.tar.bz2",
+              "archiveFileName":"ino2cpp-1.0.1.tar.bz2",
+              "checksum":"SHA-256:63d8b19728fc5241ea6944ab591fed8b9b0aa4a427b2375e97d3d3980e476f16",
+              "size":"484342"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url":"http://www.energia.nu/tools/ino2cpp-1.0.1.tar.bz2",
+              "archiveFileName":"ino2cpp-1.0.1.tar.bz2",
+              "checksum":"SHA-256:63d8b19728fc5241ea6944ab591fed8b9b0aa4a427b2375e97d3d3980e476f16",
+              "size":"484342"
+            }
+          ]
+        },
+        {
+          "name":"dslite",
+          "version":"6.2.1.1594",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"http://www.energia.nu/tools/dslite-6.2.1.1594.zip",
+              "archiveFileName":"dslite-6.2.1.1594.zip",
+              "checksum":"SHA-256:e29b77d6d1ae75092584292d0342200b583138c2b01de49f394f4f599f15b69c",
+              "size":"12487415"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/dslite-6.2.1.1594-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"dslite-6.2.1.1594-x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:495e6ea94501ab67411b4f03e29eeb825951a02fa4a36a4606a1de03cfee0b4c",
+              "size":"14736939"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.energia.nu/dslite-6.2.1.1594-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName":"dslite-6.2.1.1594-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:c689c162649b8757892398bba5244d24c0469008a806c881fdb7616240e28a32",
+              "size":"14353518" 
+            }
+          ]
+        },
+        {
+          "name":"mspdebug",
+          "version":"0.22",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"http://www.energia.nu/tools/mspdebug-0.22.zip",
+              "archiveFileName":"mspdebug-0.22.zip",
+              "checksum":"SHA-256:e29b77d6d1ae75092584292d0342200b583138c2b01de49f394f4f599f15b69c",
+              "size":"12487415"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/mspdebug-0.22-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"mspdebug-0.22--x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:efc469b4771367bd5e420eb7d6f36551df8da36dd130d2bbf184131b6876111e",
+              "size":"9891660"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.energia.nu/tools/mspdebug-0.22-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"mspdebug-0.22--x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:efc469b4771367bd5e420eb7d6f36551df8da36dd130d2bbf184131b6876111e",
+              "size":"9891660"
+            }
+          ]
+        },
+        {
+          "name":"cc3200prog",
+          "version":"1.1.4",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"http://www.energia.nu/tools/cc3200prog-1.1.4.zip",
+              "archiveFileName":"cc3200prog-1.1.4.zip",
+              "checksum":"SHA-256:e29b77d6d1ae75092584292d0342200b583138c2b01de49f394f4f599f15b69c",
+              "size":"12487415"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/cc3200prog-1.1.4-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"cc3200prog-1.1.4-x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:1d499a54ad083869fcc54da60ec4d55f03011fe3bb3d45dd75b5e687694befdd",
+              "size":"164785"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.energia.nu/tools/cc3200prog-1.1.4-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName":"cc3200prog-1.1.4-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:892a1ba158ee184451597cd8d1aad32f293dc4279e59deace08e2a67c6b93707",
+              "size":"134860"
+            }
+          ]
+        },
+        {
+          "name":"java-bsl",
+          "version":"1.0.0",
+          "systems":
+          [
+            {
+              "host":"i686-mingw32",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/BSL.tar.bz2",
+              "archiveFileName":"BSL.tar.bz2",
+              "checksum":"SHA-256:0640df501191313b65b193398556dbe6a288a163c07d1ec99b1e91fb636c7e58",
+              "size":"166179"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/BSL.tar.bz2",
+              "archiveFileName":"BSL.tar.bz2",
+              "checksum":"SHA-256:0640df501191313b65b193398556dbe6a288a163c07d1ec99b1e91fb636c7e58",
+              "size":"166179"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/BSL.tar.bz2",
+              "archiveFileName":"BSL.tar.bz2",
+              "checksum":"SHA-256:0640df501191313b65b193398556dbe6a288a163c07d1ec99b1e91fb636c7e58",
+              "size":"166179"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/BSL.tar.bz2",
+              "archiveFileName":"BSL.tar.bz2",
+              "checksum":"SHA-256:0640df501191313b65b193398556dbe6a288a163c07d1ec99b1e91fb636c7e58",
+              "size":"166179"
+            }
+          ]
+        },
+        {
+          "name":"java-gdb",
+          "version":"1.0.0",
+          "systems":
+          [
+            {
+              "host":"i686-mingw32",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/GDB.tar.bz2",
+              "archiveFileName":"GDB.tar.bz2",
+              "checksum":"SHA-256:055bcc962fdc42817086a2f493bfe6b78cae753127f1a6c4fd32cefd5c41dd58",
+              "size":"10184"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/GDB.tar.bz2",
+              "archiveFileName":"GDB.tar.bz2",
+              "checksum":"SHA-256:055bcc962fdc42817086a2f493bfe6b78cae753127f1a6c4fd32cefd5c41dd58",
+              "size":"10184"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/GDB.tar.bz2",
+              "archiveFileName":"GDB.tar.bz2",
+              "checksum":"SHA-256:055bcc962fdc42817086a2f493bfe6b78cae753127f1a6c4fd32cefd5c41dd58",
+              "size":"10184"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"http://www.panstamp.org/arduino/tools/msp430/java/GDB.tar.bz2",
+              "archiveFileName":"GDB.tar.bz2",
+              "checksum":"SHA-256:055bcc962fdc42817086a2f493bfe6b78cae753127f1a6c4fd32cefd5c41dd58",
+              "size":"10184"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
