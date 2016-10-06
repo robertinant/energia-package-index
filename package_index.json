@@ -105,6 +105,36 @@
           ]
         },
         {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.6.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.6.0.tar.bz2",
+          "archiveFileName": "cc13xx-3.6.0.tar.bz2",
+          "checksum": "SHA-256:396e0ef0d9eb183d80756fce8ea1ad94b134f5ffcae850d7d6eb99f85ed62f60",
+          "size": "4991714",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
           "name": "Energia CC3200 boards",
           "architecture": "cc3200",
           "version": "1.0.2",
