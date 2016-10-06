@@ -137,12 +137,12 @@
         {
           "name": "Energia CC13xx boards",
           "architecture": "cc13xx",
-          "version": "3.6.0",
+          "version": "3.6.1",
           "category": "Energia",
-          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.6.0.tar.bz2",
-          "archiveFileName": "cc13xx-3.6.0.tar.bz2",
-          "checksum": "SHA-256:396e0ef0d9eb183d80756fce8ea1ad94b134f5ffcae850d7d6eb99f85ed62f60",
-          "size": "4991714",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.6.1.tar.bz2",
+          "archiveFileName": "cc13xx-3.6.1.tar.bz2",
+          "checksum": "SHA-256:bbdb1404c748a9e8dc3dbad3d267c8de89d04a7aca62249b47866710ce6b6bda",
+          "size": "4991866",
           "boards": [
             {"name": "LAUNCHXL_CC1310"}
           ],
