@@ -47,6 +47,36 @@
         {
           "name": "Energia MSP432 boards",
           "architecture": "msp432",
+          "version": "3.8.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=msp432-3.8.0.tar.bz2",
+          "archiveFileName": "msp432-3.8.0.tar.bz2",
+          "checksum": "SHA-256:9af48aaa5ccca7efc6cf839c2d407f887c86843bb1adc89df593e6f4c71f560c",
+          "size": "6098385",
+          "boards": [
+            {"name": "MSP_EXP432P401R"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia MSP432 boards",
+          "architecture": "msp432",
           "version": "1.3.3",
           "category": "Energia",
           "url": "http://energia.nu/downloads/download_core.php?file=msp432-1.3.3.tar.bz2",
@@ -132,6 +162,164 @@
               "version":"6.2.1.1594"
             }
 
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.7.4",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.4.tar.bz2",
+          "archiveFileName": "cc13xx-3.7.4.tar.bz2",
+          "checksum": "SHA-256:b1fc52867179ac4b0bb69ef1f877de76ab0a8d2124d16df7bb1ed4585afba884",
+          "size": "5008614",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"},
+            {"name": "LAUNCHXL_CC1350"},
+            {"name": "CC1350STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.1.0.1917"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.7.3",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.3.tar.bz2",
+          "archiveFileName": "cc13xx-3.7.3.tar.bz2",
+          "checksum": "SHA-256:55c3cd4265f65119cc6ed60dc1920a5f9762850fa0d8810f6a7735f14453bb5c",
+          "size": "5008347",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"},
+            {"name": "LAUNCHXL_CC1350"},
+            {"name": "CC1350STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.1.0.1917"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.7.2",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.2.tar.bz2",
+          "archiveFileName": "cc13xx-3.7.2.tar.bz2",
+          "checksum": "SHA-256:0183e193755d6557e33d5d505c74d63f580dfbc3b424b028723e8242aa851484",
+          "size": "5007077",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"},
+            {"name": "LAUNCHXL_CC1350"},
+            {"name": "CC1350STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.1.0.1917"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.7.1",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.1.tar.bz2",
+          "archiveFileName": "cc13xx-3.7.1.tar.bz2",
+          "checksum": "SHA-256:4eebf0ac52fe10be6e88482debeb51727b25a6ab1f7b28ec2417260a9132cdaf",
+          "size": "5007403",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"},
+            {"name": "LAUNCHXL_CC1350"},
+            {"name": "CC1350STK"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
+          ]
+        },
+        {
+          "name": "Energia CC13xx boards",
+          "architecture": "cc13xx",
+          "version": "3.7.0",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.0.tar.bz2",
+          "archiveFileName": "cc13xx-3.7.0.tar.bz2",
+          "checksum": "SHA-256:9187d55612bf9681b76b1c20fd960021f93f869538e886cf6e109b31b7e5b0dc",
+          "size": "5007247",
+          "boards": [
+            {"name": "LAUNCHXL_CC1310"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager":"energia",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.4-20140725"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"6.2.1.1624"
+            },
+            {
+              "packager":"energia",
+              "name":"ino2cpp",
+              "version":"1.0.2"
+            }
           ]
         },
         {
@@ -280,6 +468,34 @@
               "archiveFileName":"ino2cpp-1.0.2.tar.bz2",
               "checksum":"SHA-256:6f63041767f4f15b1da7b62aa3086e6912f9e05b19bfdf512d573bcc9ac7c9a5",
               "size":"484493"
+            }
+          ]
+        },
+        {
+          "name":"dslite",
+          "version":"7.1.0.1917",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/windows/dslite-7.1.0.1917-i686-mingw32.zip",
+              "archiveFileName":"dslite-7.1.0.1917-mingw32.zip",
+              "checksum":"SHA-256:e8ef665bfeaa9264a98771ea89d14f977e8e448116372f6883bb74dc703424a8",
+              "size":"36225191"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/macosx/dslite-7.1.0.1917-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"dslite-7.1.0.1917-x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:629fe0c3c5f066b9dd62e065ac8ba80c5fd260d15d6fe32006e200b9a58343ac",
+              "size":"15384479"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/linux64/dslite-7.1.0.1917-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName":"dslite-7.1.0.1917-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:89fa13bec5e5504ccaef25a7d87464cf784c14870e66d7e149b8308839ab83de",
+              "size":"17793290"
             }
           ]
         },
