@@ -1,0 +1,4 @@
+#!/bin/bash
+gpg --output package_index.json.sig --detach-sig package_index.json
+gzip < package_index.json > package_index.json.gz
+scp package_index.json* energia.nu:html/packages/

@@ -1,0 +1,3 @@
+#!/bin/bash
+gzip < library_index.json > library_index.json.gz
+scp library_index.json* energia.nu:html/libraries/
