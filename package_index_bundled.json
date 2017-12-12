@@ -1,0 +1,167 @@
+{
+  "packages": [
+    {
+      "name": "energia",
+      "maintainer": "Energia",
+      "websiteURL": "http://www.energia.nu/",
+      "email": "make@energia.nu",
+      "help": {
+        "online": "http://energia.nu/reference"
+      },
+      "platforms": [
+        {
+          "name": "Energia MSP430 boards",
+          "architecture": "msp430",
+          "version": "1.0.3",
+          "category": "Energia",
+          "url": "http://energia.nu/downloads/download_core.php?file=msp430-1.0.3.tar.bz2",
+          "archiveFileName": "msp430-1.0.3.tar.bz2",
+          "checksum": "SHA-256:cc4902a2bcaa43850c0e9a852f10bb5662b3eb4d4388e693d7d71c97bbdcb18a",
+          "size": "2072767",
+          "boards": [
+            {"name": "MSP-EXP430F5529"},
+            {"name": "MSP-EXP430FR2433"},
+            {"name": "MSP-EXP430FR4133"},
+            {"name": "MSP-EXP430FR5969"},
+            {"name": "MSP-EXP430FR6989"},
+            {"name": "MSP-EXP430FR5739"},
+            {"name": "MSP-EXP430G2"},
+            {"name": "MSP-EXP430FR5994"}
+          ],
+          "toolsDependencies": [
+            {
+
+              "packager":"energia",
+              "name":"msp430-gcc",
+              "version":"4.6.5"
+            },
+            {
+              "packager":"energia",
+              "name":"dslite",
+              "version":"7.4.0.1099"
+            },
+            {
+              "packager":"energia",
+              "name":"mspdebug",
+              "version":"0.24"
+            }
+         ]
+        }
+      ],
+      "tools": [
+        {
+          "name":"msp430-gcc",
+          "version":"4.6.5",
+          "systems":
+          [
+            {
+              "host":"i686-mingw32",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/windows/msp430-gcc-4.6.5-i686-mingw32.tar.bz2",
+              "archiveFileName":"msp430-gcc-4.6.5-i686-mingw32.tar.bz2",
+              "checksum":"SHA-256:91496ceffdaf63562d28ca0e27d317f4e22048267efc754450f2b3cf37e69a88",
+              "size":"30758086"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/macosx/msp430-gcc-4.6.5-i386-apple-darwin11.tar.bz2",
+              "archiveFileName":"msp430-gcc-4.6.5-i386-apple-darwin11.tar.bz2",
+              "checksum":"SHA-256:9a85b83a0015d1219157e503d0515092171c1a49a9bd695fe14a4ddfbde66ffb",
+              "size":"32399439"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://s3.amazonaws.com/energiaUS/tools/linux64/msp430-gcc-4.6.5-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName": "msp430-gcc-4.6.5-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:0b5b4ee3e027aa88a8d86b1e5d6bd65f919084f3d3f8678475e4debdbbc930c9",
+              "size": "98367482"
+            }
+          ]
+        },
+        {
+          "name":"dslite",
+          "version":"7.4.0.1099",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/windows/dslite-7.4.0.1099-i686-mingw32.tar.bz2",
+              "archiveFileName":"dslite-7.4.0.1099-i686-mingw32.tar.bz2",
+              "checksum":"SHA-256:298f2d6df8f1122ce8ea437586dfba9c54d394144fdf7853509437a49b642bb8",
+              "size":"33486116"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/macosx/dslite-7.4.0.1099-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"dslite-7.4.0.1099-x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:445bfbf65a709e2e031c2670b7b0300d11b25f6a58953037f27b09c341fd7fc4",
+              "size":"17016539"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/linux64/dslite-7.4.0.1099-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName":"dslite-7.4.0.1099-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:187aeafd49f76d841f68d5fa9cac0dcdfce9aa401fd2f2b67bd9da5c14833f67",
+              "size":"18597835"
+            }
+          ]
+        },
+        {
+          "name":"mspdebug",
+          "version":"0.24",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+             "url":"https://s3.amazonaws.com/energiaUS/tools/windows/mspdebug-0.24-i686-mingw32.tar.bz2",
+              "archiveFileName":"mspdebug-0.24-i686-mingw32.tar.bz2",
+              "checksum":"SHA-256:7b3dfb269b58f692d03080a641f543dfe01bcfcef43935c2bb31e2839e284e73",
+              "size":"1058435"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/macosx/mspdebug-0.24-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"mspdebug-0.24-x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:5e0dc170ff259c4fc50a2bd591b1c10c648b9d8ad5770c03ed4228128e206fc0",
+              "size":"171307"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/linux64/mspdebug-0.24-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName":"mspdebug-0.24-i386-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:ec6131053a4ddd35b43d44591732313182e3487ffd77181df02ce23f0860a2e5",
+              "size":"147947"
+            }
+          ]
+        },
+        {
+          "name":"mspdebug",
+          "version":"0.22",
+          "systems":
+          [
+           {
+              "host":"i686-mingw32",
+              "url":"https://s3.amazonaws.com/energiaUS/tools/windows/mspdebug-0.22.zip",
+              "archiveFileName":"mspdebug-0.22.zip",
+              "checksum":"SHA-256:e4d061b5cb1de2e17dc7f4fb5c3c6bd8c6f7a3ea013fa16e2332b408440236ec",
+              "size":"201798"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"http://www.energia.nu/tools/mspdebug-0.22-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"mspdebug-0.22--x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:efc469b4771367bd5e420eb7d6f36551df8da36dd130d2bbf184131b6876111e",
+              "size":"9891660"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"http://www.energia.nu/tools/mspdebug-0.22-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName":"mspdebug-0.22--x86_64-apple-darwin.tar.bz2",
+              "checksum":"SHA-256:efc469b4771367bd5e420eb7d6f36551df8da36dd130d2bbf184131b6876111e",
+              "size":"9891660"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
